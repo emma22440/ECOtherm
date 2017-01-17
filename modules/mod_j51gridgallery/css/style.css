@@ -1,0 +1,70 @@
+.gridgallery {
+  position: relative;
+  text-align: center;
+}
+.j51gridgallery {
+  display: inline-block;
+  vertical-align: top;
+}
+.snip1305 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+.snip1305 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.snip1305 img {
+  opacity: 1;
+  width: 100%;
+}
+.snip1305 figcaption {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 90%;
+  z-index: 2;
+  padding: 15px 20px 25px;
+  margin: -50px 5% 0;
+  z-index: 1;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+}
+.snip1305 h3,
+.snip1305 p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.snip1305 h3 {
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+.snip1305 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+}
+.snip1305:hover img,
+.snip1305.hover img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.snip1305:hover figcaption,
+.snip1305.hover figcaption {
+  opacity: 1;
+  margin-top: -60px;
+}

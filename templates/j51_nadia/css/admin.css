@@ -1,0 +1,729 @@
+/* Fieldset Styling */
+.accordion-heading .accordion-toggle {
+  background: url("../images/admin/grad1.png") repeat scroll 0 0 transparent;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 1px #EEEEEE;
+  clear: both;
+  color: #555555;
+  display: block;
+  font: bold 13px/43px Arial, Helvetica, sans-serif;
+  height: 40px;
+  margin: 5px;
+  min-height: 32px;
+  padding: 0 15px;
+  position: relative;
+  text-shadow: 0 1px 1px #FFFFFF;
+  text-transform: uppercase;
+}
+.control-group {
+  clear: both;
+}
+/* Alert Boxes */
+.alert {
+  float: left;
+  margin-bottom: 0px;
+  max-width: 550px;
+}
+.alert-blue label {
+  font-size: 14px;
+}
+.alert-blue {
+  color: #fff;
+  font-size: 14px;
+  clear: both;
+  line-height: 18px;
+  background: #4399C8;
+  /* Old browsers */
+  border: none;
+  text-shadow: none;
+  padding: 10px 15px;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.alert-grey {
+  color: #555555;
+  font-size: 12px;
+  clear: both;
+  line-height: 18px;
+  background: #fefefe;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fefefe 0%, #e6e6e6 99%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(99%, #e6e6e6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fefefe 0%, #e6e6e6 99%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fefefe 0%, #e6e6e6 99%);
+  /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #fefefe 0%, #e6e6e6 99%);
+  /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#e6e6e6', GradientType=0);
+  /* IE6-9 */
+  background: linear-gradient(top, #fefefe 0%, #e6e6e6 99%);
+  /* W3C */
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #d6d6d6;
+  margin: 0px;
+  padding: 5px 10px 2px;
+  text-shadow: 1px 1px #fff;
+  display: block;
+  position: relative;
+  min-width: 200px;
+}
+.alert-warning {
+  color: #555;
+  font-size: 14px;
+  clear: both;
+  line-height: 18px;
+  background: url("../images/admin/notice.png") no-repeat scroll 5px center #eeeeee;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #d6d6d6;
+  padding: 12px 15px 12px 50px;
+  text-shadow: 1px 1px #fff;
+  display: block;
+  position: relative;
+  max-width: 510px;
+}
+/* Color Picker */
+.moor-box,
+.moor-overlayBox,
+.moor-slider,
+.moor-chooseColor {
+  border: 1px solid #DDDDDD;
+}
+/* Template Info */
+.templateinfo img {
+  float: left;
+  padding: 0 20px;
+}
+.templateinfo p {
+  padding: 0 20px;
+  max-width: 600px;
+  text-align: left;
+  font-weight: normal;
+}
+.templateinfo h4 {
+  padding: 10px 20px;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+  color: #888888;
+  text-transform: uppercase;
+  background: #eeeeee;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.form-horizontal .control-label {
+  min-width: 180px;
+}
+/* Joomla 3.2 */
+.row-fluid .span6 {
+  margin-left: 0;
+  width: 100%;
+}
+.nav.nav-tabs {
+  background-color: #FFFFFF;
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.11) 0%, rgba(0, 0, 0, 0.06) 100%);
+  /* gradient overlay */
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.11) 0%, rgba(0, 0, 0, 0.06) 100%);
+  /* gradient overlay */
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.11) 0%, rgba(0, 0, 0, 0.06) 100%);
+  /* gradient overlay */
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.11) 0%, rgba(0, 0, 0, 0.06) 100%);
+  /* gradient overlay */
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.11) 0%, rgba(0, 0, 0, 0.06) 100%);
+  /* gradient overlay */
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #DDDDDD;
+  padding: 8px;
+  margin-bottom: 0;
+}
+.nav.nav-tabs > li > a {
+  background: #fcfcfc;
+  color: #235a7f;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 4px;
+  z-index: 1;
+  text-shadow: none;
+  opacity: 1;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  /* stroke */
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  -moz-box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.08), inset 1px 1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(255, 255, 255, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.04);
+  /* inner shadow */
+  -webkit-box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.08), inset 1px 1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(255, 255, 255, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.04);
+  /* inner shadow */
+  box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.08), inset 1px 1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(255, 255, 255, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.04);
+  /* inner shadow */
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+  /* gradient overlay */
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+  /* gradient overlay */
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+  /* gradient overlay */
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
+  /* gradient overlay */
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+  /* gradient overlay */
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.nav-tabs > li > a:hover {
+  background: #ffffff;
+  color: #3aa6d5;
+  outline: none;
+  -moz-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.18), 1px 1px 1px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.18), 1px 1px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.18), 1px 1px 1px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  /* stroke */
+}
+.tab-content {
+  background: none repeat scroll 0 0 #FAFAFA;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 20px;
+  border-radius: 0px 0px 8px 8px;
+}
+#system-message-container {
+  margin-bottom: 10px;
+}
+/* Opacity Slider */
+.opacityvalue {
+  background-color: #EEEEEE;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  height: 18px;
+  line-height: 18px;
+  min-width: 16px;
+  padding: 1px 5px;
+  text-align: center;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+input[type="range"] {
+  margin: 0 5px;
+  padding: 0;
+  width: 150px;
+}
+#jform_params_social_custom_modal .btn-success,
+#jform_params_social_custom_modal .btn-danger {
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-width: 0px;
+  padding: 7px 14px 4px;
+}
+#jform_params_social_custom_modal .btn-success:hover,
+#jform_params_social_custom_modal .btn-danger:hover {
+  background-position: 0 0;
+}
+#jform_params_social_custom_modal .btn-success {
+  background-color: #51A351;
+}
+#jform_params_social_custom_modal .btn-success:hover {
+  background-color: #408140;
+}
+#jform_params_social_custom_modal .btn-danger {
+  background-color: #BD362F;
+}
+#jform_params_social_custom_modal .btn-danger:hover {
+  background-color: #942a25;
+}
+#installer-install .moduleinfo {
+  padding: 20px;
+}
+#details .span9 > h3,
+#details .span9 .info-labels {
+  display: none;
+}
+/* Disabled */
+.disabled,
+#jform_params_bgcolor-lbl,
+#jform_params_bgcolor,
+#jform_params_header_color-lbl,
+#jform_params_header_color,
+#jform_params_header_color + span,
+#jform_params_header_opacity-lbl,
+#jform_params_header_opacity,
+#jform_params_hornav_bg-lbl,
+#jform_params_hornav_bg,
+#jform_params_hornav_bg + span,
+#jform_params_top1_bg-lbl,
+#jform_params_top1_color-lbl,
+#jform_params_top1_color,
+#jform_params_top1_color + span,
+#jform_params_top1_opacity-lbl,
+#jform_params_top1_opacity,
+#jform_params_top2_bg-lbl,
+#jform_params_top2_color-lbl,
+#jform_params_top2_color,
+#jform_params_top2_color + span,
+#jform_params_top2_opacity-lbl,
+#jform_params_top2_opacity,
+#jform_params_top3_bg-lbl,
+#jform_params_top3_color-lbl,
+#jform_params_top3_color,
+#jform_params_top3_color + span,
+#jform_params_top3_opacity-lbl,
+#jform_params_top3_opacity,
+#jform_params_elementcolor3-lbl,
+#jform_params_elementcolor3,
+#jform_params_elementcolor3 + span,
+#jform_params_elementcolor7-lbl,
+#jform_params_elementcolor7,
+#jform_params_elementcolor7 + span,
+#jform_params_elementcolor16-lbl,
+#jform_params_elementcolor16,
+#jform_params_elementcolor16 + span,
+#jform_params_elementcolor4-lbl,
+#jform_params_elementcolor4,
+#jform_params_elementcolor18-lbl,
+#jform_params_bottom1_bg-lbl,
+#jform_params_elementcolor18,
+#jform_params_elementcolor18 + span,
+#jform_params_elementcolor13-lbl,
+#jform_params_elementcolor13,
+#jform_params_bottom2_bg-lbl,
+#jform_params_elementcolor19-lbl,
+#jform_params_elementcolor19,
+#jform_params_elementcolor20-lbl,
+#jform_params_elementcolor20,
+#jform_params_elementcolor9-lbl,
+#jform_params_elementcolor9,
+#jform_params_elementcolor9 + span,
+#jform_params_wrapper_width-lbl,
+#jform_params_wrapper_width,
+#jform_params_wrapper_width + span,
+#jform_params_sidecola_width-lbl,
+#jform_params_sidecola_width,
+#jform_params_sidecola_width + span,
+#jform_params_sidecolb_width-lbl,
+#jform_params_sidecolb_width,
+#jform_params_sidecolb_width + span,
+#jform_params_logo_x-lbl,
+#jform_params_logo_x,
+#jform_params_logo_x + span,
+#jform_params_logo_y-lbl,
+#jform_params_logo_y,
+#jform_params_logo_y + span,
+#jform_params_logoText-lbl,
+#jform_params_logoText,
+#jform_params_logo_fontstyle-lbl,
+#jform_params_logo_fontstyle,
+#jform_params_logo_font_color-lbl,
+#jform_params_logo_font_color,
+#jform_params_logo_font_color + span,
+#jform_params_sloganText-lbl,
+#jform_params_sloganText,
+#jform_params_slogan_font_color-lbl,
+#jform_params_slogan_font_color,
+#jform_params_slogan_font_color + span,
+#jform_params_top1_auto-lbl,
+#jform_params_top2_auto-lbl,
+#jform_params_top3_auto-lbl,
+#jform_params_contenttop_auto-lbl,
+#jform_params_contentbottom_auto-lbl,
+#jform_params_bottom1_auto-lbl,
+#jform_params_bottom2_auto-lbl,
+#jform_params_base1_auto-lbl,
+#jform_params_base2_auto-lbl,
+label[id^="jform_params_top_"],
+input[id^="jform_params_top_"],
+input[id^="jform_params_top_"] + span,
+label[id^="jform_params_contenttop_"],
+input[id^="jform_params_contenttop_"],
+input[id^="jform_params_contenttop_"] + span,
+label[id^="jform_params_contentbottom_"],
+input[id^="jform_params_contentbottom_"],
+input[id^="jform_params_contentbottom_"] + span,
+label[id^="jform_params_bottom_"],
+input[id^="jform_params_bottom_"],
+input[id^="jform_params_bottom_"] + span,
+label[id^="jform_params_base_"],
+input[id^="jform_params_base_"],
+input[id^="jform_params_base_"] + span {
+  opacity: 0.5;
+}
+.disabled span,
+#jform_params_bgcolor-lbl span,
+#jform_params_bgcolor span,
+#jform_params_header_color-lbl span,
+#jform_params_header_color span,
+#jform_params_header_color + span span,
+#jform_params_header_opacity-lbl span,
+#jform_params_header_opacity span,
+#jform_params_hornav_bg-lbl span,
+#jform_params_hornav_bg span,
+#jform_params_hornav_bg + span span,
+#jform_params_top1_bg-lbl span,
+#jform_params_top1_color-lbl span,
+#jform_params_top1_color span,
+#jform_params_top1_color + span span,
+#jform_params_top1_opacity-lbl span,
+#jform_params_top1_opacity span,
+#jform_params_top2_bg-lbl span,
+#jform_params_top2_color-lbl span,
+#jform_params_top2_color span,
+#jform_params_top2_color + span span,
+#jform_params_top2_opacity-lbl span,
+#jform_params_top2_opacity span,
+#jform_params_top3_bg-lbl span,
+#jform_params_top3_color-lbl span,
+#jform_params_top3_color span,
+#jform_params_top3_color + span span,
+#jform_params_top3_opacity-lbl span,
+#jform_params_top3_opacity span,
+#jform_params_elementcolor3-lbl span,
+#jform_params_elementcolor3 span,
+#jform_params_elementcolor3 + span span,
+#jform_params_elementcolor7-lbl span,
+#jform_params_elementcolor7 span,
+#jform_params_elementcolor7 + span span,
+#jform_params_elementcolor16-lbl span,
+#jform_params_elementcolor16 span,
+#jform_params_elementcolor16 + span span,
+#jform_params_elementcolor4-lbl span,
+#jform_params_elementcolor4 span,
+#jform_params_elementcolor18-lbl span,
+#jform_params_bottom1_bg-lbl span,
+#jform_params_elementcolor18 span,
+#jform_params_elementcolor18 + span span,
+#jform_params_elementcolor13-lbl span,
+#jform_params_elementcolor13 span,
+#jform_params_bottom2_bg-lbl span,
+#jform_params_elementcolor19-lbl span,
+#jform_params_elementcolor19 span,
+#jform_params_elementcolor20-lbl span,
+#jform_params_elementcolor20 span,
+#jform_params_elementcolor9-lbl span,
+#jform_params_elementcolor9 span,
+#jform_params_elementcolor9 + span span,
+#jform_params_wrapper_width-lbl span,
+#jform_params_wrapper_width span,
+#jform_params_wrapper_width + span span,
+#jform_params_sidecola_width-lbl span,
+#jform_params_sidecola_width span,
+#jform_params_sidecola_width + span span,
+#jform_params_sidecolb_width-lbl span,
+#jform_params_sidecolb_width span,
+#jform_params_sidecolb_width + span span,
+#jform_params_logo_x-lbl span,
+#jform_params_logo_x span,
+#jform_params_logo_x + span span,
+#jform_params_logo_y-lbl span,
+#jform_params_logo_y span,
+#jform_params_logo_y + span span,
+#jform_params_logoText-lbl span,
+#jform_params_logoText span,
+#jform_params_logo_fontstyle-lbl span,
+#jform_params_logo_fontstyle span,
+#jform_params_logo_font_color-lbl span,
+#jform_params_logo_font_color span,
+#jform_params_logo_font_color + span span,
+#jform_params_sloganText-lbl span,
+#jform_params_sloganText span,
+#jform_params_slogan_font_color-lbl span,
+#jform_params_slogan_font_color span,
+#jform_params_slogan_font_color + span span,
+#jform_params_top1_auto-lbl span,
+#jform_params_top2_auto-lbl span,
+#jform_params_top3_auto-lbl span,
+#jform_params_contenttop_auto-lbl span,
+#jform_params_contentbottom_auto-lbl span,
+#jform_params_bottom1_auto-lbl span,
+#jform_params_bottom2_auto-lbl span,
+#jform_params_base1_auto-lbl span,
+#jform_params_base2_auto-lbl span,
+label[id^="jform_params_top_"] span,
+input[id^="jform_params_top_"] span,
+input[id^="jform_params_top_"] + span span,
+label[id^="jform_params_contenttop_"] span,
+input[id^="jform_params_contenttop_"] span,
+input[id^="jform_params_contenttop_"] + span span,
+label[id^="jform_params_contentbottom_"] span,
+input[id^="jform_params_contentbottom_"] span,
+input[id^="jform_params_contentbottom_"] + span span,
+label[id^="jform_params_bottom_"] span,
+input[id^="jform_params_bottom_"] span,
+input[id^="jform_params_bottom_"] + span span,
+label[id^="jform_params_base_"] span,
+input[id^="jform_params_base_"] span,
+input[id^="jform_params_base_"] + span span,
+.disabled input,
+#jform_params_bgcolor-lbl input,
+#jform_params_bgcolor input,
+#jform_params_header_color-lbl input,
+#jform_params_header_color input,
+#jform_params_header_color + span input,
+#jform_params_header_opacity-lbl input,
+#jform_params_header_opacity input,
+#jform_params_hornav_bg-lbl input,
+#jform_params_hornav_bg input,
+#jform_params_hornav_bg + span input,
+#jform_params_top1_bg-lbl input,
+#jform_params_top1_color-lbl input,
+#jform_params_top1_color input,
+#jform_params_top1_color + span input,
+#jform_params_top1_opacity-lbl input,
+#jform_params_top1_opacity input,
+#jform_params_top2_bg-lbl input,
+#jform_params_top2_color-lbl input,
+#jform_params_top2_color input,
+#jform_params_top2_color + span input,
+#jform_params_top2_opacity-lbl input,
+#jform_params_top2_opacity input,
+#jform_params_top3_bg-lbl input,
+#jform_params_top3_color-lbl input,
+#jform_params_top3_color input,
+#jform_params_top3_color + span input,
+#jform_params_top3_opacity-lbl input,
+#jform_params_top3_opacity input,
+#jform_params_elementcolor3-lbl input,
+#jform_params_elementcolor3 input,
+#jform_params_elementcolor3 + span input,
+#jform_params_elementcolor7-lbl input,
+#jform_params_elementcolor7 input,
+#jform_params_elementcolor7 + span input,
+#jform_params_elementcolor16-lbl input,
+#jform_params_elementcolor16 input,
+#jform_params_elementcolor16 + span input,
+#jform_params_elementcolor4-lbl input,
+#jform_params_elementcolor4 input,
+#jform_params_elementcolor18-lbl input,
+#jform_params_bottom1_bg-lbl input,
+#jform_params_elementcolor18 input,
+#jform_params_elementcolor18 + span input,
+#jform_params_elementcolor13-lbl input,
+#jform_params_elementcolor13 input,
+#jform_params_bottom2_bg-lbl input,
+#jform_params_elementcolor19-lbl input,
+#jform_params_elementcolor19 input,
+#jform_params_elementcolor20-lbl input,
+#jform_params_elementcolor20 input,
+#jform_params_elementcolor9-lbl input,
+#jform_params_elementcolor9 input,
+#jform_params_elementcolor9 + span input,
+#jform_params_wrapper_width-lbl input,
+#jform_params_wrapper_width input,
+#jform_params_wrapper_width + span input,
+#jform_params_sidecola_width-lbl input,
+#jform_params_sidecola_width input,
+#jform_params_sidecola_width + span input,
+#jform_params_sidecolb_width-lbl input,
+#jform_params_sidecolb_width input,
+#jform_params_sidecolb_width + span input,
+#jform_params_logo_x-lbl input,
+#jform_params_logo_x input,
+#jform_params_logo_x + span input,
+#jform_params_logo_y-lbl input,
+#jform_params_logo_y input,
+#jform_params_logo_y + span input,
+#jform_params_logoText-lbl input,
+#jform_params_logoText input,
+#jform_params_logo_fontstyle-lbl input,
+#jform_params_logo_fontstyle input,
+#jform_params_logo_font_color-lbl input,
+#jform_params_logo_font_color input,
+#jform_params_logo_font_color + span input,
+#jform_params_sloganText-lbl input,
+#jform_params_sloganText input,
+#jform_params_slogan_font_color-lbl input,
+#jform_params_slogan_font_color input,
+#jform_params_slogan_font_color + span input,
+#jform_params_top1_auto-lbl input,
+#jform_params_top2_auto-lbl input,
+#jform_params_top3_auto-lbl input,
+#jform_params_contenttop_auto-lbl input,
+#jform_params_contentbottom_auto-lbl input,
+#jform_params_bottom1_auto-lbl input,
+#jform_params_bottom2_auto-lbl input,
+#jform_params_base1_auto-lbl input,
+#jform_params_base2_auto-lbl input,
+label[id^="jform_params_top_"] input,
+input[id^="jform_params_top_"] input,
+input[id^="jform_params_top_"] + span input,
+label[id^="jform_params_contenttop_"] input,
+input[id^="jform_params_contenttop_"] input,
+input[id^="jform_params_contenttop_"] + span input,
+label[id^="jform_params_contentbottom_"] input,
+input[id^="jform_params_contentbottom_"] input,
+input[id^="jform_params_contentbottom_"] + span input,
+label[id^="jform_params_bottom_"] input,
+input[id^="jform_params_bottom_"] input,
+input[id^="jform_params_bottom_"] + span input,
+label[id^="jform_params_base_"] input,
+input[id^="jform_params_base_"] input,
+input[id^="jform_params_base_"] + span input,
+.disabled label,
+#jform_params_bgcolor-lbl label,
+#jform_params_bgcolor label,
+#jform_params_header_color-lbl label,
+#jform_params_header_color label,
+#jform_params_header_color + span label,
+#jform_params_header_opacity-lbl label,
+#jform_params_header_opacity label,
+#jform_params_hornav_bg-lbl label,
+#jform_params_hornav_bg label,
+#jform_params_hornav_bg + span label,
+#jform_params_top1_bg-lbl label,
+#jform_params_top1_color-lbl label,
+#jform_params_top1_color label,
+#jform_params_top1_color + span label,
+#jform_params_top1_opacity-lbl label,
+#jform_params_top1_opacity label,
+#jform_params_top2_bg-lbl label,
+#jform_params_top2_color-lbl label,
+#jform_params_top2_color label,
+#jform_params_top2_color + span label,
+#jform_params_top2_opacity-lbl label,
+#jform_params_top2_opacity label,
+#jform_params_top3_bg-lbl label,
+#jform_params_top3_color-lbl label,
+#jform_params_top3_color label,
+#jform_params_top3_color + span label,
+#jform_params_top3_opacity-lbl label,
+#jform_params_top3_opacity label,
+#jform_params_elementcolor3-lbl label,
+#jform_params_elementcolor3 label,
+#jform_params_elementcolor3 + span label,
+#jform_params_elementcolor7-lbl label,
+#jform_params_elementcolor7 label,
+#jform_params_elementcolor7 + span label,
+#jform_params_elementcolor16-lbl label,
+#jform_params_elementcolor16 label,
+#jform_params_elementcolor16 + span label,
+#jform_params_elementcolor4-lbl label,
+#jform_params_elementcolor4 label,
+#jform_params_elementcolor18-lbl label,
+#jform_params_bottom1_bg-lbl label,
+#jform_params_elementcolor18 label,
+#jform_params_elementcolor18 + span label,
+#jform_params_elementcolor13-lbl label,
+#jform_params_elementcolor13 label,
+#jform_params_bottom2_bg-lbl label,
+#jform_params_elementcolor19-lbl label,
+#jform_params_elementcolor19 label,
+#jform_params_elementcolor20-lbl label,
+#jform_params_elementcolor20 label,
+#jform_params_elementcolor9-lbl label,
+#jform_params_elementcolor9 label,
+#jform_params_elementcolor9 + span label,
+#jform_params_wrapper_width-lbl label,
+#jform_params_wrapper_width label,
+#jform_params_wrapper_width + span label,
+#jform_params_sidecola_width-lbl label,
+#jform_params_sidecola_width label,
+#jform_params_sidecola_width + span label,
+#jform_params_sidecolb_width-lbl label,
+#jform_params_sidecolb_width label,
+#jform_params_sidecolb_width + span label,
+#jform_params_logo_x-lbl label,
+#jform_params_logo_x label,
+#jform_params_logo_x + span label,
+#jform_params_logo_y-lbl label,
+#jform_params_logo_y label,
+#jform_params_logo_y + span label,
+#jform_params_logoText-lbl label,
+#jform_params_logoText label,
+#jform_params_logo_fontstyle-lbl label,
+#jform_params_logo_fontstyle label,
+#jform_params_logo_font_color-lbl label,
+#jform_params_logo_font_color label,
+#jform_params_logo_font_color + span label,
+#jform_params_sloganText-lbl label,
+#jform_params_sloganText label,
+#jform_params_slogan_font_color-lbl label,
+#jform_params_slogan_font_color label,
+#jform_params_slogan_font_color + span label,
+#jform_params_top1_auto-lbl label,
+#jform_params_top2_auto-lbl label,
+#jform_params_top3_auto-lbl label,
+#jform_params_contenttop_auto-lbl label,
+#jform_params_contentbottom_auto-lbl label,
+#jform_params_bottom1_auto-lbl label,
+#jform_params_bottom2_auto-lbl label,
+#jform_params_base1_auto-lbl label,
+#jform_params_base2_auto-lbl label,
+label[id^="jform_params_top_"] label,
+input[id^="jform_params_top_"] label,
+input[id^="jform_params_top_"] + span label,
+label[id^="jform_params_contenttop_"] label,
+input[id^="jform_params_contenttop_"] label,
+input[id^="jform_params_contenttop_"] + span label,
+label[id^="jform_params_contentbottom_"] label,
+input[id^="jform_params_contentbottom_"] label,
+input[id^="jform_params_contentbottom_"] + span label,
+label[id^="jform_params_bottom_"] label,
+input[id^="jform_params_bottom_"] label,
+input[id^="jform_params_bottom_"] + span label,
+label[id^="jform_params_base_"] label,
+input[id^="jform_params_base_"] label,
+input[id^="jform_params_base_"] + span label {
+  cursor: not-allowed !important;
+}
+.disabled .btn-danger:hover,
+.disabled .btn-danger:focus,
+.disabled .btn-danger:active,
+.disabled .btn-danger.active,
+.disabled .btn-danger.disabled,
+.disabled .btn-danger[disabled] {
+  background-color: transparent;
+}
+.disabled .btn:hover,
+.disabled .btn:focus {
+  background-position: 0 0;
+}
+.disabled .btn-primary.active,
+.disabled .btn-warning.active,
+.disabled .btn-danger.active,
+.disabled .btn-success.active,
+.disabled .btn-info.active,
+.disabled .btn-inverse.active {
+  color: #000;
+  box-shadow: none;
+  border-color: #bbb #bbb #a2a2a2;
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+}
+#jform_params_bgcolor-lbl {
+  position: relative;
+}
+.full-info {
+  background-image: none;
+  background-color: #4399C8;
+  border-radius: 4px;
+  color: #fff;
+  text-shadow: none;
+  padding: 15px 25px;
+}
+.full-info .btn {
+  font-weight: bold;
+  border-color: white;
+  margin: 10px 0 0;
+}

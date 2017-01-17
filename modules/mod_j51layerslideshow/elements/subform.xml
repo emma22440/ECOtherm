@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+<fieldset name="j51_slideimages_modal" class="subform-subform">
+	<field name="j51_slidetitle" type="text" default="" label="Slide Title" description="Set your slide title" />
+	<field name="j51_slidecaption" type="textarea" default="" label="Slide Caption" description="Set your slide caption" />
+	<field name="j51_slideimage" type="media" default="" label="Slide Image" description="Select your slide image(s)" directory="/" filter="" exclude="" stripext="" />
+	<field name="j51_slidelink" type="text" default="" label="Slide Link" description="Set a link for your slide" />
+</fieldset>
+</form>

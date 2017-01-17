@@ -1,0 +1,49 @@
+.feature-subform .control-group {
+    display: inline-block;
+    margin-right:40px;
+}
+.feature-subform .controls {
+  margin-left: 60px;
+}
+
+/* Subforms */
+.subform-repeatable {
+  border-top: 1px solid #eaeaea;
+}
+.subform-repeatable > .btn-toolbar {
+  display: none;
+}
+.subform-repeatable .subform-repeatable-group {
+  position: relative;
+  border-top: 1px solid #ddd;
+}
+.subform-repeatable .subform-repeatable-group > .btn-toolbar {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.subform-repeatable .subform-repeatable-group .control-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.subform-repeatable .btn-success,
+.subform-repeatable .btn-danger,
+.subform-repeatable .btn-primary {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 0;
+  padding: 4px 12px;
+}
+.subform-repeatable .subform-subform {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  background-color: #f3f3f3;
+  padding: 0 10px;
+}
+.form-horizontal .control-label {
+  padding-right: 0 !important;
+}

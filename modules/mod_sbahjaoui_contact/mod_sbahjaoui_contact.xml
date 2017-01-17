@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6" method="upgrade">
+	<name>mod_sbahjaoui_contact</name>
+	<creationDate>2014-12-31</creationDate>
+	<author>Soufiane Bahjaoui</author>
+	<authorEmail>contact@sbahjaoui-info.com</authorEmail>
+	<authorUrl>http://www.sbahjaoui-info.com</authorUrl>
+	<copyright>Copyright (C) 2014  Open Source Matters. All rights reserved.</copyright>	
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.1</version>
+	<description>MOD_SBAHJAOUI_CONTACT_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sbahjaoui_contact">mod_sbahjaoui_contact.php</filename>
+		<folder>tmpl</folder>
+		<folder>admin</folder>
+		<folder>assets</folder>			
+		<folder>js</folder>
+		<filename>helper.php</filename>		
+		<filename>index.html</filename>
+		<filename>install.sql</filename>
+		<filename>uninstall.sql</filename>
+		<filename>mod_sbahjaoui_contact.xml</filename>
+	</files>
+	<install>
+	<sql>
+	<file charset="utf8" driver="mysql">install.sql</file>
+	</sql>
+	</install>
+	<install>
+	<sql>
+	<file charset="utf8" driver="mysql">uninstall.sql</file>
+	</sql>
+	</install>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_sbahjaoui_contact.ini</language>
+    	<language tag="fr-FR">language/fr-FR/fr-FR.mod_sbahjaoui_contact.ini</language> 
+		<language tag="ar-AA">language/ar-AA/ar-AA.mod_sbahjaoui_contact.ini</language>    
+		<language tag="en-GB">language/en-GB/en-GB.mod_sbahjaoui_contact.sys.ini</language>
+    	<language tag="fr-FR">language/fr-FR/fr-FR.mod_sbahjaoui_contact.sys.ini</language> 
+		<language tag="ar-AA">language/ar-AA/ar-AA.mod_sbahjaoui_contact.sys.ini</language> 
+	</languages>
+	<params>
+		<param name="classname" type="text" default="" label="Class Name" description="Class Name Description" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="classname" type="text" default="" label="Class Name" description="Class Name Description" />			
+				<field name="receiver_email" type="text" default="" label="SB_LABEL_RECEIVER" description="SB_DESC_RECEIVER" />	
+				<field name="email_req" type="list" default="true" label="SB_EMAIL_REQ" description="SB_DESC_EMAIL_REQ">	
+				<option	value="true">SB_REQUIRED</option>				
+				<option	value="false">SB_NOT_REQUIRED</option>				
+				</field>				
+				<field name="phone_req" type="list" default="false" label="SB_PHONE_REQ" description="SB_DESC_PHONE_REQ">	
+				<option	value="true">SB_REQUIRED</option>					
+				<option	value="false">SB_NOT_REQUIRED</option>				
+				</field>								
+				<field name="website_req" type="list" default="false" label="SB_WEBSITE_REQ" description="SB_DESC_WEBSITE_REQ">
+				<option	value="true">SB_REQUIRED</option>									
+				<option	value="false">SB_NOT_REQUIRED</option>							
+				</field>							
+				<field name="name_req" type="list" default="true" label="SB_NAME_REQ" description="SB_DESC_NAME_REQ">		
+				<option	value="true">SB_REQUIRED</option>						
+				<option	value="false">SB_NOT_REQUIRED</option>					
+				</field>						
+				<field name="subject_req" type="list" default="false" label="SB_SUBJECT_REQ" description="SB_DESC_SUBJECT_REQ">			
+				<option	value="true">SB_REQUIRED</option>							
+				<option	value="false">SB_NOT_REQUIRED</option>					
+				</field>				
+				<field name="name_publish" type="list"  default="1" label="SB_NAME" description="SB_DESC_NAME">				
+				<option	value="1">SB_PUBLISHED</option>		
+				<option	value="0">SB_NOT_PUBLISHED</option>		
+				</field>			
+				<field name="email_publish" type="list" class="" default="1" label="SB_EMAIL" description="SB_DESC_EMAIL">				
+				<option	value="1">SB_PUBLISHED</option>		
+				<option	value="0">SB_NOT_PUBLISHED</option>		
+				</field>			
+				<field name="phone_publish" type="list" class="" default="0" label="SB_PHONE" description="SB_DESC_PHONE">		
+				<option	value="1">SB_PUBLISHED</option>		
+				<option	value="0">SB_NOT_PUBLISHED</option>		
+				</field>		
+				<field name="website_publish" type="list" class="" default="0" label="SB_WEBSITE" description="SB_DESC_WEBSITE">		
+				<option	value="1">SB_PUBLISHED</option>		
+				<option	value="0">SB_NOT_PUBLISHED</option>		
+				</field>	
+				<field name="subject_publish" type="list" class="" default="0" label="SB_SUBJECT" description="SB_DESC_SUBJECT">		
+				<option	value="1">SB_PUBLISHED</option>		
+				<option	value="0">SB_NOT_PUBLISHED</option>	
+				</field>		
+				<field name="message_publish" type="list" class="" default="1" label="SB_MESSAGE" description="SB_DESC_MESSAGE">			
+				<option	value="1">SB_PUBLISHED</option>				
+				<option	value="0">SB_NOT_PUBLISHED</option>			
+				</field>				
+				<field name="captcha_publish" type="list" class="" default="1" label="SB_CAPTCHA" description="SB_DESC_CAPTCHA">			
+				<option	value="1">SB_PUBLISHED</option>	
+				<option	value="0">SB_NOT_PUBLISHED</option>	
+				</field>				
+	                    	
+			</fieldset>
+			
+			<fieldset name="ADVANCED">
+            		<field name="moduleclass_sfx" type="text" default="" label="SB_MOD_CLASS" description="SB_MOD_SFX" />
+		<field name="enablejQuery" type="radio" default="1" label="SB_JQUERY" description="SB_DESC_JQUERY" class="btn-group bt_control">
+			<option value="1">SB_YES</option>
+			<option value="0">SB_NO</option>
+		</field>
+    
+  
+		
+		<field name="cache" type="list" default="1" label="SB_CACHE" description="SB_DESC_CACHE">
+			<option value="1">SB_GLOBAL</option>
+			<option value="0">SB_NO_CACHE</option>
+		</field>
+		<field name="cache_time" type="text" default="900" label="SB_CACHE_TIME" description="SB_DESC_CACHE_TIME" />                   
+                                      
+         <field addfieldpath="/modules/mod_sbahjaoui_contact/admin/formfield" type="asset" name="asset" path="modules/mod_sbahjaoui_contact/admin/" />                        
+        </fieldset>
+		</fields>
+	</config>
+		<updateservers>
+		<server type="extension" priority="1" name="sbahjaoui contact update"><![CDATA[http://www.sbahjaoui-info.com/telechargements/SbahjaouiContact.xml]]></server>
+	</updateservers>
+</extension>
